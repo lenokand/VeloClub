@@ -14,6 +14,10 @@ ul{
     margin-bottom: 0;
     padding-left: 0;
 }
+.container{
+    max-width: 1440px;
+    margin: auto;
+}
 
 /* navigation */
 nav{
@@ -145,3 +149,20 @@ h2{
     font-size: 66px;
     font-weight: 500;
 }
+/* form */
+form{
+    display: flex;
+    flex-direction: column;
+
+}
+form input{
+
+    background: none;
+    outline: none;
+}
+.form h2{
+        text-align: center;
+        color: #EFD6D6;
+        font-size: 105px;
+        font-weight: 500;
+    }
