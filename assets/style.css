@@ -81,10 +81,10 @@ h1{
 }
 .main-header{
     border-radius: 25px;
-    background-image: url('./images/bg_main.png');
+    /* background-image: url('./images/bg_main.png');
     background-repeat: repeat-x;
     background-position: center;
-    background-size: contain;
+    background-size: contain; */
     width: 100%;
     min-height: 50vh;
     display: flex;
