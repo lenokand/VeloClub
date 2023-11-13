@@ -44,6 +44,11 @@
     <header>
         <div class="main-header">
             <h1>Looking for a bike?</h1>
+            <ul>
+                <li>Lorem ipsum dolor, sit amet consectetur adipisicing elit. </li>
+                <li>Lorem ipsum dolor, sit amet consectetur adipisicing elit. </li>
+                
+            </ul>
             <a class="main-header_link" href="#">Find your perfect one</a>
         </div>
 
@@ -135,25 +140,40 @@
                     </div>
                     
                     <!-- If we need navigation buttons -->
-                    <div class="swiper-button-prev"></div>
-                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="45" viewBox="0 0 10.605 15.555" fill="#F8788F">
+                            <polygon points="10.605 12.727 5.656 7.776 10.605 2.828 7.777 0 0 7.776 7.777 15.555 10.605 12.727"/>
+                        </svg>
+                          
+                    </div>
+                    <div class="swiper-button-next">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="45" viewBox="0 0 10.605 15.555" fill="#F8788F">
+                            <polygon points="2.828 15.555 10.605 7.776 2.828 0 0 2.828 4.949 7.776 0 12.727 2.828 15.555"/>
+                        </svg>
+                          
+                    </div>
 
                 </div>
         </div>
        
     </section>
 
-    <section id="about">
+    <section id="about" >
         <div class="container">
             <h2>
                 About us
             </h2>
-            <img src="" alt="">
+            <img src="./assets/images/aboutvelo.jpg" alt="">
             <div class="wrapper">
                 <h3>Lorem ipsum</h3>
                 <div class="text">
                     Lorem ipsum dolor sit amet consectetur, adipisicing elit. Saepe eos rem, iste facere suscipit minus blanditiis laborum explicabo molestias voluptas dolore adipisci nemo accusamus, sint illum! Optio suscipit quia perferendis?
                     Lorem ipsum dolor sit amet consectetur, adipisicing elit. Saepe eos rem, iste facere suscipit minus blanditiis laborum explicabo molestias voluptas dolore adipisci nemo accusamus, sint illum! Optio suscipit quia perferendis?
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Saepe eos rem, iste facere suscipit minus blanditiis laborum explicabo molestias voluptas dolore adipisci nemo accusamus, sint illum! Optio suscipit quia perferendis?
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Saepe eos rem, iste facere suscipit minus blanditiis laborum explicabo molestias voluptas dolore adipisci nemo accusamus, sint illum! Optio suscipit quia perferendis?
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Saepe eos rem, iste facere suscipit minus blanditiis laborum explicabo molestias voluptas dolore adipisci nemo accusamus, sint illum! Optio suscipit quia perferendis?
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Saepe eos rem, iste facere suscipit minus blanditiis laborum explicabo molestias voluptas dolore adipisci nemo accusamus, sint illum! Optio suscipit quia perferendis?
+                    
                 </div>
             </div>
         </div>
@@ -164,18 +184,39 @@
             <h2>Coming soon...</h2>
 
             <form action="">
-                <input type="text" placeholder="Name">
+                <!-- <input type="text" placeholder="Name">
                 <input type="email" placeholder="Email">
-                <input type="text" placeholder="Message">
+                <input type="text" placeholder="Message"> -->
+              
+                <div class="field">
+                    <input type="text" required id="name">
+                    <label for="name" title="Name"></label>
+                </div>
+                <div class="field">
+                    <input type="text" required  id="email">
+                    <label for="email" title="Email"></label>
+                </div>
+                <div class="field">
+                    <input type="text" required  id="message">
+                    <label for="message" title="Message"></label>
+                </div>
+                
+
                 <button>Subscribe</button>
             </form>
         </div>
     </section>
 
     <footer>
-
+        <div class="container">
+            <a href="index.html">VeloClub</a>
+            <p>&copy; 2023 VeloClub. All rights reserved.</p>
+        </div>
+        
     </footer>
-
+    <div class="totop">       
+        <img src="./assets/images/arrow2.png" alt=""> 
+    </div>
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script src="assets/slider.js"></script>
     <script src="assets/main.js"></script>
