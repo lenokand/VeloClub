@@ -3,6 +3,8 @@
 body{
     font-family: 'Inter', sans-serif;
     background: #1E1E1E;
+    /* overflow-y: scroll; */
+    scroll-behavior: smooth;
 }
 *{
     box-sizing: border-box;
@@ -220,9 +222,14 @@ h3{
     margin-top: 0;
 }
 /* form */
+.form{
+    margin-top: 200px;
+    margin-bottom: 150px;
+}
 form{
     display: flex;
     flex-direction: column;
+    
 
 }
 form input{
